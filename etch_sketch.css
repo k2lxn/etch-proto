@@ -1,0 +1,35 @@
+
+#container {
+	width: 640px;
+	height: 360px; /* 16:9 aspect ratio */
+	margin: 10px auto;
+	
+	background-color: #AAA;
+	border: 2px solid red;
+}
+
+#clear-bttn {
+	width: 53px;
+	padding: 5px;
+	margin: 5px auto;
+	
+	font-family: Arial, sans-serif;
+	text-align: center;
+	background: #AAA;
+	border: 2px solid #888;
+	border-radius: 4px;
+}
+
+#clear-bttn {
+	cursor: pointer;
+}
+
+.unit {
+	float: left;
+
+	background-color: rgba(200,50,70, 0.5);
+}
+
+.touched {
+	background-color: rgba(10,200,45, 0.7);
+}
